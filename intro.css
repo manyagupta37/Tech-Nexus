@@ -1,0 +1,68 @@
+/* intro.css */
+body {
+    font-family: 'Arial', sans-serif;
+    background: #2b4162;
+    margin: 0;
+    padding: 0;
+}
+
+.intro-page {
+    text-align: center;
+    padding: 50px;
+    background: #add8e6;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    font-weight: bold;
+}
+
+.intro-page:hover {
+    transform: scale(1.02);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.hospital-photo {
+    width: 100%;
+    max-width: 600px;
+    border-radius: 8px;
+    margin: 20px auto;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.hospital-photo:hover {
+    opacity: 0.8;
+}
+h1{
+    margin-bottom: 30px;
+    font-size: 32px;
+    color: #333;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    font-weight: bolder;
+}
+h2{
+    margin-bottom: 30px;
+    font-size: 32px;
+    color: #333;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    font-weight: bolder;
+}
+
+.btn-appointment {
+    margin-top: 20px;
+    background-color: #2b4162;
+    border: none;
+    border-radius: 50px;
+    padding: 12px 25px;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    font-weight: bold;
+}
+
+.btn-appointment:hover {
+    background-color: #6a6c6e;
+    transform: scale(1.05);
+}

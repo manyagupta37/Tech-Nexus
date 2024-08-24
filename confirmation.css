@@ -1,0 +1,92 @@
+/* confirmation.css */
+
+body {
+    font-family: 'Arial', sans-serif;
+    background: #2b4162;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* Full-height background */
+}
+
+.page-container {
+    display: flex;
+   
+}
+
+.image-container {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-right: 20px;
+}
+
+.image-container img {
+    max-height: 80vh; /* Adjust to control the vertical height of the image */
+    max-width: 100%; /* Ensure the image doesn't overflow horizontally */
+    object-fit: cover;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(236, 157, 157, 0.1); /* Shadow for image */
+}
+
+.confirmation-container {
+    flex: 1;
+    background: #add8e6;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(192, 50, 50, 0.1);
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Align all elements to the center horizontally */
+    justify-content: center; /* Center the elements vertically */
+    text-align: center; /* Center the text */
+}
+
+h2 {
+    margin-bottom: 20px;
+    font-weight: bold;
+    text-transform: uppercase; /* Optional: For uppercase text */
+    letter-spacing: 1px; /* Optional: Adds letter spacing */
+}
+
+p {
+    margin-bottom: 20px;
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+.qr-code {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 150px; /* Adjust size if needed */
+    height: 150px; /* Adjust size if needed */
+    object-fit: cover;
+    border-radius: 8px; /* Rounded corners for the QR code */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Shadow for QR code */
+}
+
+.btn {
+    margin-top: 10px;
+    width: 100%; /* Make buttons full width */
+    max-width: 200px; /* Set a max width for the buttons */
+    background-color: #2b4162; /* Button background color similar to the background */
+    color: #fff; /* Button text color */
+    border: none; /* Remove border */
+    border-radius: 5px; /* Rounded corners */
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: 600;
+    transition: background-color 0.3s;
+    text-transform: uppercase; /* Uppercase button text */
+    letter-spacing: 0.5px; /* Slight spacing between letters */
+}
+
+.btn:hover {
+    background-color: #757678; /* Hover effect: slightly lighter shade */
+}
+
+

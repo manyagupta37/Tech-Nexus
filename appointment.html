@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Appointment Form</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="appointment.css">
+</head>
+
+<body>
+    <div class="container appointment-page">
+        <a href="departments.html" class="btn btn-secondary mb-4">Back</a>
+        <img src="./doc logo.jpg" alt="Logo" class="top-right-image">
+        
+        <h2>Book an Appointment</h2>
+        <form id="appointmentForm">
+            <div class="mb-3">
+                <label for="name" class="form-label">Name</label>
+                <input type="text" class="form-control" id="name" required>
+            </div>
+            <div class="mb-3">
+                <label for="age" class="form-label">Age</label>
+                <input type="number" class="form-control" id="age" required>
+            </div>
+            <div class="mb-3">
+                <label for="gender" class="form-label">Gender</label>
+                <select class="form-select" id="gender" required>
+                    <option value="">Select Gender</option>
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                    <option value="other">Other</option>
+                </select>
+            </div>
+            <div class="mb-3">
+                <label for="department" class="form-label">Medical Department</label>
+                <select class="form-select" id="department" required>
+                    <option value="">Select Department</option>
+                    <option value="cardiology">Cardiology</option>
+                    <option value="neurology">Neurology</option>
+                    <option value="orthopedics">Orthopedics</option>
+                    <option value="pediatrics">Pediatrics</option>
+                    <option value="dermatology">Dermatology</option>
+                    <option value="gastroenterology">Gastroenterology</option>
+                </select>
+            </div>
+            <div class="mb-3">
+                <label for="appointment-date" class="form-label">Date</label>
+                <input type="date" class="form-control" id="appointment-date" required>
+            </div>
+            <div class="mb-3">
+                <label for="appointment-time" class="form-label">Time Slot</label>
+                <input type="time" class="form-control" id="appointment-time" required>
+            </div>
+            
+            <a href="confirmation.html" class="btn btn-primary">Submit</a>
+        </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>

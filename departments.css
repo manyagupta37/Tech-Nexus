@@ -1,0 +1,149 @@
+/* departments.css */
+body {
+    font-family: 'Arial', sans-serif;
+    background: #2b4162;
+    margin: 0;
+    padding: 0;
+}
+.login-container {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    z-index: 1000; /* Ensure it's on top of other elements */
+}
+/* Small Compact Login Icon Style */
+.login-container {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    z-index: 1000; /* Ensure it's on top of other elements */
+}
+
+/* Small Compact Login Icon Style */
+.login-container {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    z-index: 1000; /* Ensure it's on top of other elements */
+    text-align: center; /* Center-align the text under the icon */
+}
+
+.login-link {
+    text-decoration: none; /* Remove default link underline */
+    color: inherit; /* Inherit color from parent */
+}
+
+.login-icon {
+    width: 100px; /* Small width */
+    height: 100px; /* Small height */
+    cursor: pointer;
+    border-radius: 50%; /* Make it circular if the image is square */
+    transition: transform 0.3s ease;
+    display: block;
+    margin: 0 auto; /* Center the icon within the container */
+}
+
+/* Hover Effect */
+.login-icon:hover {
+    transform: scale(1.1); /* Slightly enlarge the icon on hover */
+}
+
+/* Text below the login icon */
+.login-text {
+    font-weight: bold;
+    text-decoration: underline;
+    font-size: 14px;
+    color: #680909; /* Change to the desired text color */
+    margin-top: 5px; /* Space between the icon and the text */
+}
+
+/* Responsive Design */
+@media (max-width: 480px) {
+    .login-icon {
+        width: 20px;  /* Slightly smaller on mobile */
+        height: 20px;
+    }
+
+    .login-text {
+        font-size: 12px; /* Smaller text size on mobile */
+    }
+}
+
+
+.departments-page {
+    padding: 20px;
+    background: #add8e6;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-weight: bold;
+}
+
+.grid-item {
+    text-align: center;
+    padding: 20px;
+    border: 1px solid #7d8283;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    background: #ece6ed;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    font-weight: bold;
+}
+
+.grid-item:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.btn-secondary {
+    background-color: #2b4162;
+    border: none;
+    border-radius: 50px;
+    padding: 10px 20px;
+    color: #fff;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    font-weight: bold;
+}
+
+.btn-secondary:hover {
+    background-color: #5a6268;
+    transform: scale(1.05);
+}
+
+.btn-primary {
+    background-color: #2b4162;
+    border: none;
+    border-radius: 50px;
+    padding: 10px 20px;
+    color: #fff;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    font-weight: bold;
+}
+
+.btn-primary:hover {
+    background-color: #6a6c6e;
+    transform: scale(1.05);
+}
+.image-gallery {
+    text-align: center;
+}
+
+.image-gallery img {
+    margin: 5px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 300px;
+    height: 200px;
+}
+h2{
+    margin-top: 30px;
+    
+    font-size: 28px;
+    color: #faf8f8;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    font-weight: bolder;
+}
